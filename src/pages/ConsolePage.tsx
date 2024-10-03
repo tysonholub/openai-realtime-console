@@ -5,8 +5,8 @@
  *
  * Simply switch the lines by commenting one and removing the other
  */
-// const USE_LOCAL_RELAY_SERVER_URL: string | undefined = 'http://localhost:8081';
-const USE_LOCAL_RELAY_SERVER_URL: string | undefined = void 0;
+const USE_LOCAL_RELAY_SERVER_URL: string | undefined = 'http://localhost:8081';
+// const USE_LOCAL_RELAY_SERVER_URL: string | undefined = void 0;
 
 import { useEffect, useRef, useCallback, useState } from 'react';
 

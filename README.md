@@ -1,3 +1,22 @@
+# Forked Update
+
+Containerized and made to run with the relay-server for development testing.
+
+## Requirements
+
+- [docker.io](https://www.docker.com/)
+- [Justfile](https://github.com/casey/just)
+- [aws](https://aws.amazon.com/cli/)
+
+The `just create_env` target expects your OPENAI_API_KEY to be stored in Parameter Store path `/openai/api-key`
+
+## Just targers
+
+- `just create_env`: creates a .env to pass into the relay-server container
+- `just build`: builds the local docker container
+- `just run_client`: runs the frontend react client (ie ./src folder)
+- `just run_server`: runs the backend relay-server
+
 # OpenAI Realtime Console
 
 The OpenAI Realtime Console is intended as an inspector and interactive API reference
